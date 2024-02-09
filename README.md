@@ -29,6 +29,8 @@
 ## Installation
 
 ```bash
+$ docker-composer up -d
+$ npm run migration:run
 $ npm install
 ```
 
