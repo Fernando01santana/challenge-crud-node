@@ -1,0 +1,24 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Debug NestJS App",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["run-script", "debug"],
+      "port": 9229,
+      "restart": true,
+      "timeout": 30000,
+      "env": {
+        "DB_HOST": "localhost",
+        "DB_PORT": "55000",
+        "DB_USERNAME": "postgres",
+        "DB_PASSWORD": "postgrespw",
+        "DB_DATABASE": "postgres",
+        "SECRET_KEY": "kajshdkjashdkjashdkjashdkjahsd",
+        "SECRET_DURATION": "1h"
+      }
+    }
+  ]
+}
